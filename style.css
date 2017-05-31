@@ -37,7 +37,7 @@ html, body {
   }
 
   to {
-    transform: translateY(-250px) scale(0.5,0.5);
+    transform: translateY(-50px) scale(0.5,0.5);
     
   }
 }
