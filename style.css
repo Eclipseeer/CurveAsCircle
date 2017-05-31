@@ -8,19 +8,9 @@ html, body {
 .svg{
     position: absolute;
     top: 25%;
-    left: 30%;
+    left: 25%;
     will-change: auto;
-    width: 40%;
-}
-.img1{
-    position: absolute;
-    top: 25%;
-    left: 6%;
-    opacity:  0.0;
-    height: 600px;
-}
-#clipping {
-    background-color: aqua;
+    width: 50%;
 }
 #arc1Gradient {
    transition: 0.5s;
