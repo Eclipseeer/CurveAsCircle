@@ -5,3 +5,49 @@ html, body {
     padding: 0;
     background-color: azure;
 }
+.svg{
+    position: absolute;
+    top: 25%;
+    left: 30%;
+    will-change: auto;
+    width: 40%;
+}
+.img1{
+    position: absolute;
+    top: 25%;
+    left: 6%;
+    opacity:  0.0;
+    height: 600px;
+}
+#clipping {
+    background-color: aqua;
+}
+#arc1Gradient {
+   transition: 0.5s;
+}
+.arc1GradOff {
+     opacity: 0;
+}
+.arc1GradOn {
+    opacity: 1;
+}
+.logoMove {
+    
+    animation-duration: 1.2s;
+    animation-name: slidein;
+    animation-iteration-count: 1;
+    animation-delay: 0.2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes slidein {
+  from {
+    transform: translateY(0px) scale(1,1);
+    
+  }
+
+  to {
+    transform: translateY(-250px) scale(0.5,0.5);
+    
+  }
+}

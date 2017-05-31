@@ -1,11 +1,53 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Create bezier curve as circle arc</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+<!doctype html>
+<html>
+	<head>
+		<title>SvgAnimate</title>
+		<meta charset='utf-8' />
+		<link rel="stylesheet" href="style.css">
+	</head>
 <body>
-    
+<svg id="logo" viewBox="0 0 420 300" class="svg">
+
+
+<path d="" fill="#ffffff" stroke-linejoin="round" stroke="#262626" stroke-width="4" class="arc" id="arc1"></path>
+<g id="arc1Gradient" class="arc1GradOff">
+    <linearGradient id="SVGID1" gradientUnits="userSpaceOnUse" x1="149" y1="226" x2="278" y2="123">
+        <stop  offset="0" style="stop-color:#FFFFFF;stop-opacity:0"/>
+        <stop  offset="4.338069e-002" style="stop-color:#F4F4F4;stop-opacity:8.676139e-002"/>
+        <stop  offset="0.1205" style="stop-color:#D5D5D5;stop-opacity:0.241"/>
+        <stop  offset="0.2224" style="stop-color:#939393;stop-opacity:0.4449"/>
+        <stop  offset="0.3453" style="stop-color:#434343;stop-opacity:0.6907"/>
+        <stop  offset="0.4846" style="stop-color:#000000;stop-opacity:1"/>
+        <stop  offset="0.5" style="stop-color:#000000"/>
+        <stop  offset="0.6694" style="stop-color:#4b4b4b;stop-opacity:0.8"/>
+        <stop  offset="0.8984" style="stop-color:#D0D0D0;stop-opacity:0.2031"/>
+        <stop  offset="1" style="stop-color:#FFFFFF;stop-opacity:0"/>
+    </linearGradient>
+    <path fill="url(#SVGID1)"
+          stroke="rgba(38, 38, 45, 0)"
+          stroke-width="3"
+          class="arc"
+          id="arc1GradientPath"
+          d="M 149 226 L 191 135 L 190.94 134.97 C 198.34 119.01 209.56 105.13 223.61 94.55 L 223.61,94.55 C 237.1,84.39 252.79,77.56 269.42,74.63 L 278.1 123.83 C 259.77,127.06 244.16,139.04 236.3,155.91  L 236.3 155.91 L 215.44 203.72 L 177 287 Z">
+    </path>
+    <path 
+        fill="none"
+        stroke="#262626"
+        stroke-width="3"
+        stroke-linecap="round"
+        d="M 149 226 L 191 135 L 190.94 134.97 C 198.34 119.01 209.56 105.13 223.61 94.55 L 223.61,94.55 C 237.1,84.39 252.79,77.56 269.42,74.63">
+    </path>
+    <path 
+        fill="none"
+        stroke="#262626"
+        stroke-width="3"
+        stroke-linecap="round"
+        d="M 278.1 123.83 C 259.77,127.06 244.16,139.04 236.3,155.91  L 236.3 155.91 L 215.44 203.72 L 177 287 ">
+    </path>
+</g>
+<path d="" fill="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke="#262626" stroke-width="4" class="arc" id="arc2"></path>
+
+</svg>
+<script src="main.min.js"></script>
 </body>
 </html>
