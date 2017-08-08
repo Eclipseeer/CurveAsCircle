@@ -21,7 +21,7 @@ html, body {
 .arc1GradOn {
     opacity: 1;
 }
-.logoMove {
+/*.logoMove {
     
     animation-duration: 1.2s;
     animation-name: slidein;
@@ -40,4 +40,4 @@ html, body {
     transform: translateY(-50px) scale(0.5,0.5);
     
   }
-}
+}*/
